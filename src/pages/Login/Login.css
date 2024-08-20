@@ -1,0 +1,70 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Login page styles */
+  .login {
+    min-height: 100vh;
+    background-image: url('src/Public/Login_bac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    color: white;
+    padding: 20px 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .form-input {
+    color: white;
+    padding: 8px 10px;
+    margin: 12px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-bottom: 2px solid orange;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: dodgerblue;
+  }
+  
+
+  
+  button {
+    color: white;
+    padding: 8px 10px;
+    background-color: rgb(56, 56, 219);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3838db;
+  }
+  
+  .login-terms {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  span {
+    color: aqua;
+    cursor: pointer;
+  }
+  
+ 
