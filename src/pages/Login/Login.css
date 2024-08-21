@@ -9,7 +9,7 @@ body {
   /* Login page styles */
   .login {
     min-height: 100vh;
-    background-image: url('src/Public/Login_bac.jpg');
+    background-image: url("../../Public/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,11 +21,12 @@ body {
   .login-form {
     color: white;
     padding: 20px 30px;
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
   }
   
   .form-input {
